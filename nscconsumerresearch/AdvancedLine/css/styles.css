@@ -67,7 +67,7 @@ body {
   font-size: 1em;
   padding-top: 2em;
   height: 100%;
-  background-image: url("../images/therapypage/repeating-molecules-blue.jpg");
+  background-image: url("../images/advpage/repeating-molecules-blue.jpg");
   background-repeat: repeat-y;
   background-position: center center;
 }
@@ -542,7 +542,7 @@ ul.navTabs li a img {
   height: 301px;
   width: 250px;
   margin-bottom: 0;
-  background-image: url("../images/therapypage/AdvancedLine-NC-Selector-LG.jpg");
+  background-image: url("../images/advpage/AdvancedLine-NC-Selector-LG.jpg");
 }
 
 .psoriasis {
@@ -550,7 +550,7 @@ ul.navTabs li a img {
   height: 301px;
   width: 250px;
   margin-bottom: 0;
-  background-image: url("../images/therapypage/AdvancedLine-DC-Selector-LG.jpg");
+  background-image: url("../images/advpage/AdvancedLine-DC-Selector-LG.jpg");
 }
 
 .dermalPain {
@@ -558,7 +558,7 @@ ul.navTabs li a img {
   height: 301px;
   width: 250px;
   margin-bottom: 0;
-  background-image: url("../images/therapypage/AdvancedLine-Body-Selector-LG.jpg");
+  background-image: url("../images/advpage/AdvancedLine-Body-Selector-LG.jpg");
 }
 
 .coldSoreDimmed {
@@ -566,7 +566,7 @@ ul.navTabs li a img {
   height: 263px;
   width: 250px;
   margin-bottom: 0;
-  background-image: url("../images/therapypage/Dimmed-AdvancedLine-NC-Selector-LG.jpg");
+  background-image: url("../images/advpage/Dimmed-AdvancedLine-NC-Selector-LG.jpg");
 }
 
 .psoriasisDimmed {
@@ -574,7 +574,7 @@ ul.navTabs li a img {
   height: 263px;
   width: 250px;
   margin-bottom: 0;
-  background-image: url("../images/therapypage/Dimmed-AdvancedLine-DC-Selector-LG.jpg");
+  background-image: url("../images/advpage/Dimmed-AdvancedLine-DC-Selector-LG.jpg");
 }
 
 .dermalPainDimmed {
@@ -582,7 +582,7 @@ ul.navTabs li a img {
   height: 263px;
   width: 250px;
   margin-bottom: 0;
-  background-image: url("../images/therapypage/Dimmed-AdvancedLine-Body-Selector-LG.jpg");
+  background-image: url("../images/advpage/Dimmed-AdvancedLine-Body-Selector-LG.jpg");
 }
 
 /* end jQuery overrides */
@@ -601,7 +601,7 @@ ul.navTabs li a img {
     width: 167px;
     height: 206px;
     margin-bottom: 0;
-    background-image: url("../images/therapypage/AdvancedLine-NC-Selector-MD.jpg");
+    background-image: url("../images/advpage/AdvancedLine-NC-Selector-MD.jpg");
   }
 
   .psoriasis {
@@ -609,7 +609,7 @@ ul.navTabs li a img {
     width: 167px;
     height: 206px;
     margin-bottom: 0;
-    background-image: url("../images/therapypage/AdvancedLine-DC-Selector-MD.jpg");
+    background-image: url("../images/advpage/AdvancedLine-DC-Selector-MD.jpg");
   }
 
   .dermalPain {
@@ -617,7 +617,7 @@ ul.navTabs li a img {
     width: 167px;
     height: 206px;
     margin-bottom: 0;
-    background-image: url("../images/therapypage/AdvancedLine-Body-Selector-MD.jpg");
+    background-image: url("../images/advpage/AdvancedLine-Body-Selector-MD.jpg");
   }
 
   .coldSoreDimmed {
@@ -625,7 +625,7 @@ ul.navTabs li a img {
     width: 167px;
     height: 176px;
     margin-bottom: 0;
-    background-image: url("../images/therapypage/Dimmed-AdvancedLine-NC-Selector-MD.jpg");
+    background-image: url("../images/advpage/Dimmed-AdvancedLine-NC-Selector-MD.jpg");
   }
 
   .psoriasisDimmed {
@@ -633,7 +633,7 @@ ul.navTabs li a img {
     width: 167px;
     height: 176px;
     margin-bottom: 0;
-    background-image: url("../images/therapypage/Dimmed-AdvancedLine-DC-Selector-MD.jpg");
+    background-image: url("../images/advpage/Dimmed-AdvancedLine-DC-Selector-MD.jpg");
   }
 
   .dermalPainDimmed {
@@ -641,7 +641,7 @@ ul.navTabs li a img {
     width: 167px;
     height: 176px;
     margin-bottom: 0;
-    background-image: url("../images/therapypage/Dimmed-AdvancedLine-Body-Selector-MD.jpg");
+    background-image: url("../images/advpage/Dimmed-AdvancedLine-Body-Selector-MD.jpg");
   }
 
   p.csHowToUse {

@@ -172,7 +172,7 @@
 						<img src="images/therapypage/Step3.png" alt="step three">
 					</div>
 					<div class="col-sm-3 visible-lg visible-md">
-						<p class="csHowToUse">Reapply throughout day as needed. For optimal results, follow with Nerium ADVANCED Nighyly Face Treatment.</p>
+						<p class="csHowToUse">Reapply throughout day as needed. For optimal results, follow with Nerium ADVANCED Nightly Face Treatment.</p>
 					</div>
 					
 			</div>
@@ -205,7 +205,7 @@
 					<img src="images/therapypage/Step3.png" alt="step three" class="center-block">
 				</div>
 				<div class="col-sm-6 hidden-lg hidden-md">
-					<p class="csHowToUse">Reapply throughout day as needed. For optimal results, follow with Nerium ADVANCED Nighyly Face Treatment.</p>
+					<p class="csHowToUse">Reapply throughout day as needed. For optimal results, follow with Nerium ADVANCED Nightly Face Treatment.</p>
 				</div>
 				<div class="col-sm-2 hidden-lg hidden-md"></div>	
 			</div>
@@ -442,7 +442,7 @@
 								<img src="images/therapypage/Step3.png" alt="step three" class="center-block">
 							</div>
 							<div class="col-sm-6">
-								<p class="csHowToUse">Reapply throughout day as needed. For optimal results, follow with Nerium ADVANCED Nighyly Face Treatment.</p>
+								<p class="csHowToUse">Reapply throughout day as needed. For optimal results, follow with Nerium ADVANCED Nightly Face Treatment.</p>
 							</div>
 						</div>
 					</div>

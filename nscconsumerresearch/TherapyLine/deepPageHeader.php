@@ -71,7 +71,7 @@
     
 <div class="row">
     <div class="col-xs-6 companyLogo">
-        <a href="../"><img src="../images/newlogo.gif" width="250" alt="company logo" class="img-responsive"></a>
+        <a href="../secure.php"><img src="../images/newlogo.gif" width="250" alt="company logo" class="img-responsive"></a>
     </div>
 
 

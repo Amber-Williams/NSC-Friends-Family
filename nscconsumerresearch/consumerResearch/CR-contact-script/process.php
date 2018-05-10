@@ -7,18 +7,15 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $address = $_POST['address'];
 $from = "<" . $email . ">";
-$to = "amber@neriumskincare.com , egutierrez@neriumbiotech.com";
+$to = "amber@neriumskincare.com , egutierrez@neriumbiotech.com , whitemichael646@gmail.com";
 $subject = "Consumer Research Form Submission";
 $body =
-"First name: {$firstName}
-Last name: {$lastName}
+"Full name: {$name}
 From: {$email}
-Country: {$country}
 Phone: {$phone}
-Name of the Nerium product you use: {$product}
-Message: {$message}";
+Address: {$address}";
 mail($to, "Consumer Research Form Submission", $body);
-header('Location: ../thanks');
+header('Location: ../../thanks');
 }
 else
 {

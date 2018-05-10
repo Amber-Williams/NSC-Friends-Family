@@ -1450,6 +1450,7 @@
 
 /* Consumer Research Study Page Stylings */
 .CR-h1 {
+  letter-spacing: 3px;
   border-bottom: 1px black solid;
   padding-bottom: 6px;
   padding-left: 19px;

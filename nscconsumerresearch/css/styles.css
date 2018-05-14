@@ -1465,6 +1465,46 @@
 .CR-form {
   margin: 0 50px;
 }
+.btn-consumerResearch {
+  display: block;
+  margin: 0 auto;
+  margin-top:100px;
+  background:#A1D2E6;
+  border: none;
+  border-radius: 3px;
+  padding:10px 25px;
+  transition: all 300ms linear;
+}
+.btn-consumerResearch:hover {
+  background:#686868;
+  border: none;
+  color:white;
+}
+.consumerResearch-banner {
+  background-image: url("../images2/consumerResearch-signup-banner.jpg");
+  background-size: cover;
+  height: 172px;
+}
+.CR-mobile-banner {
+  display:none;
+}
+@media all and (max-width: 756px) {
+  .CR-mobile-banner {
+  display:inherit;
+  background:#0F0F0F;
+  padding-bottom:10px;
+  }
+  .CR-mobile-banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  .consumerResearch-banner {
+  display:none;
+  }
+  .btn-consumerResearch {
+  margin-top:0px;
+  }
+}
 
 /* END Consumer Research Study styling*/
 

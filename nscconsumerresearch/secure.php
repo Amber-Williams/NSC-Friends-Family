@@ -34,21 +34,7 @@
 		border: 1px solid #686868;
 		color:white;
 	}
-	.btn-consumerResearch {
-		display: block;
-		margin: 0 auto;
-		margin-top:100px;
-		background:#A1D2E6;
-		border: none;
-		border-radius: 3px;
-		padding:10px 25px;
-		transition: all 300ms linear;
-		}
-	.btn-consumerResearch:hover {
-		background:#686868;
-		border: none;
-		color:white;
-	}
+	
 	a {
 		text-decoration:none;
 		text-decoration-style:none;
@@ -64,11 +50,7 @@
 		text-decoration-style: none;
 		color: inherit;
 	}
-	.consumerResearch-banner {
-		background-image: url("images2/consumerResearch-signup-banner.jpg");
-		background-size: cover;
-		height: 172px;
-	}
+
 </style>
 
 	<div class="row">
@@ -235,8 +217,14 @@
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-sm-12 CR-mobile-banner">
+		  <img src="images2/consumerResearch-signup-banner-mobile.jpg"/>
+		  <a href="consumerResearch/"><button class="btn-consumerResearch">JOIN NOW</button></a>
+		</div>
+	</div>
+	<div class="row">
 		<div class="col-sm-12 banner consumerResearch-banner">
-			<div class="col-sm-8 float-right">
+			<div class="col-xs-8 float-right CR-mobile-background">
 				<a href="consumerResearch/"><button class="btn-consumerResearch">JOIN NOW</button></a>
 			</div>
 		</div>

@@ -48,7 +48,7 @@
 
 	<div class="col-sm-6">
 		<h2 class="title-individual-h2">NeriumRX Psoriasis Relief Therapy
-		<br /> $20 <span class="line-through text-thinnest">$35</span>| <span class="title-individual-h2-small">30ml / 1 fl. oz<span></h2>
+		<br /> $20 <span class="line-through text-thinnest">$39.95</span>| <span class="title-individual-h2-small">30ml / 1 fl. oz<span></h2>
 		<div id='product-component-2cde4017722'><br/></div>
 		<script type="text/javascript">
 			/*<![CDATA[*/

@@ -48,7 +48,7 @@
 
 	<div class="col-sm-6">
 		<h2 class="title-individual-h2">NeriumRX Dermal Pain Relief Therapy 
-		<br /> $22 <span class="line-through text-thinnest">$42</span>| <span class="title-individual-h2-small">30ml / 1 fl. oz<span></h2>
+		<br /> $22 <span class="line-through text-thinnest">$43.95</span>| <span class="title-individual-h2-small">30ml / 1 fl. oz<span></h2>
 		<div id='product-component-6b8cccb69f9'><br/></div>
 		<script type="text/javascript">
 			/*<![CDATA[*/
@@ -270,7 +270,7 @@
 	
 
 		<span class="benefits-text">
-		<p>Introducing the first ever fast acting Dermal Pain Relief Therapy. This pain relieving formula is designed to provide instant relief and support to symptoms of shingles and various other skin conditions. With powerful skin protecting and effective ingredients, this formulation is a fast-acting spray that will quickly help to relieve symptoms such as pain, itching, tingling and burning caused from various skin conditions such as shingles, sunburns, scrapes and insect bites. </p>
+		<p>Introducing the first ever fast acting Dermal Pain Relief Therapy. This pain relieving formula is designed to provide instant relief and support to symptoms of shingles and various other skin conditions. With powerful skin protecting and effective ingredients, this formulation is a fast-acting spray that will quickly help to relieve symptoms such as pain, itching, tingling and burning caused from various skin conditions such as shingles, painful skin irriations and insect bites. </p>
 		</span>
 
 		<span class="ing-text">

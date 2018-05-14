@@ -315,7 +315,7 @@
 			<div class="row">
 				<h1 class="productHeader">NERIUMRX DERMAL PAIN RELIEF THERAPY</h1>
 				<p class="dpTherapy">
-				Introducing the first ever fast acting Dermal Pain Relief Therapy. This pain relieving formula is designed to provide instant relief and support to symptoms of shingles and various other skin conditions. With powerful skin protecting and effective ingredients, this formulation is a fast-acting spray that will quickly help to relieve symptoms such as pain, itching, tingling and burning caused from various skin conditions such as shingles, sunburns, scrapes and insect bites.				<img src="images/therapypage/RX-About-Shingles-V3.png" alt="Dermal Pain Relief Therapy Benefits" width="100%" class="center-block">
+				Introducing the first ever fast acting Dermal Pain Relief Therapy. This pain relieving formula is designed to provide instant relief and support to symptoms of shingles and various other skin conditions. With powerful skin protecting and effective ingredients, this formulation is a fast-acting spray that will quickly help to relieve symptoms such as pain, itching, tingling and burning caused from various skin conditions such as shingles, painful skin irriations and insect bites.				<img src="images/therapypage/RX-About-Shingles-V3.png" alt="Dermal Pain Relief Therapy Benefits" width="100%" class="center-block">
 				<hr class="redHR" />
 			</div>
 
@@ -603,7 +603,7 @@
 					<div class="row">
 						<h1 class="productHeader">NERIUMRX DERMAL PAIN RELIEF THERAPY</h1>
 						<p class="dpTherapy">
-						Introducing the first ever fast acting Dermal Pain Relief Therapy. This pain relieving formula is designed to provide instant relief and support to symptoms of shingles and various other skin conditions. With powerful skin protecting and effective ingredients, this formulation is a fast-acting spray that will quickly help to relieve symptoms such as pain, itching, tingling and burning caused from various skin conditions such as shingles, sunburns, scrapes and insect bites.						<hr class="redHR" />
+						Introducing the first ever fast acting Dermal Pain Relief Therapy. This pain relieving formula is designed to provide instant relief and support to symptoms of shingles and various other skin conditions. With powerful skin protecting and effective ingredients, this formulation is a fast-acting spray that will quickly help to relieve symptoms such as pain, itching, tingling and burning caused from various skin conditions such as shingles, painful skin irriations and insect bites.						<hr class="redHR" />
 					</div>
 
 					<div class="row">

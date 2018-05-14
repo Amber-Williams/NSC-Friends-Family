@@ -872,216 +872,216 @@ END-->
 END-->
 <!--Dermal cream-->
 <script type="text/javascript">
-/*<![CDATA[*/
+	/*<![CDATA[*/
 
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
+	(function () {
+	var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+	if (window.ShopifyBuy) {
+		if (window.ShopifyBuy.UI) {
+		ShopifyBuyInit();
+		} else {
+		loadScript();
+		}
+	} else {
+		loadScript();
+	}
 
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
+	function loadScript() {
+		var script = document.createElement('script');
+		script.async = true;
+		script.src = scriptURL;
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+		script.onload = ShopifyBuyInit;
+	}
 
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'neriumskincare-products.myshopify.com',
-      apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
-      appId: '6',
-    });
+	function ShopifyBuyInit() {
+		var client = ShopifyBuy.buildClient({
+		domain: 'neriumskincare-products.myshopify.com',
+		apiKey: '2cdb9a49c2303d785f531d4e716b34c4',
+		appId: '6',
+		});
 
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [320240680970],
-        node: document.getElementById('product-component-982b1d5c493'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "variantId": "all",
-    "width": "240px",
-    "contents": {
-      "img": false,
-      "imgWithCarousel": false,
-      "title": false,
-      "variantTitle": false,
-      "price": false,
-      "description": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "text-align": "right",
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "background-color": "#a1d2e6",
-        "font-family": "Arial, sans-serif",
-        "padding-left": "8px",
-        "padding-right": "8px",
-        "display": "block",
-        "margin": "0 auto",
-        ":hover": {
-          "background-color": "#91bdcf"
-        },
-        ":focus": {
-          "background-color": "#91bdcf"
-        },
-        "font-weight": "normal"
-      },
-      "variantTitle": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal",
-        "color": "#808080"
-      },
-      "description": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal"
-      },
-      "compareAt": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal",
-        "color": "#4c4c4c",
-        "font-size": "12px"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "styles": {
-      "button": {
-        "background-color": "#a1d2e6",
-        "font-family": "Arial, sans-serif",
-        ":hover": {
-          "background-color": "#91bdcf"
-        },
-        ":focus": {
-          "background-color": "#91bdcf"
-        },
-        "font-weight": "normal"
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#a1d2e6",
-        "font-family": "Arial, sans-serif",
-        "padding-left": "8px",
-        "padding-right": "8px",
-        ":hover": {
-          "background-color": "#91bdcf"
-        },
-        ":focus": {
-          "background-color": "#91bdcf"
-        },
-        "font-weight": "normal"
-      },
-      "variantTitle": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal"
-      },
-      "title": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal"
-      },
-      "description": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal"
-      },
-      "compareAt": {
-        "font-family": "Arial, sans-serif",
-        "font-weight": "normal"
-      }
-    }
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Arial, sans-serif",
-        "background-color": "#a1d2e6",
-        ":hover": {
-          "background-color": "#91bdcf"
-        },
-        ":focus": {
-          "background-color": "#91bdcf"
-        },
-        "font-weight": "normal"
-      }
-    }
-  },
-  "option": {
-    "styles": {
-      "label": {
-        "font-family": "Arial, sans-serif"
-      },
-      "select": {
-        "font-family": "Arial, sans-serif"
-      }
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
-}
-      });
-    });
-  }
-})();
-/*]]>*/
+		ShopifyBuy.UI.onReady(client).then(function (ui) {
+		ui.createComponent('product', {
+			id: [320240680970],
+			node: document.getElementById('product-component-982b1d5c493'),
+			moneyFormat: '%24%7B%7Bamount%7D%7D',
+			options: {
+	"product": {
+		"variantId": "all",
+		"width": "240px",
+		"contents": {
+		"img": false,
+		"imgWithCarousel": false,
+		"title": false,
+		"variantTitle": false,
+		"price": false,
+		"description": false,
+		"buttonWithQuantity": false,
+		"quantity": false
+		},
+		"styles": {
+		"product": {
+			"text-align": "right",
+			"@media (min-width: 601px)": {
+			"max-width": "100%",
+			"margin-left": "0",
+			"margin-bottom": "50px"
+			}
+		},
+		"button": {
+			"background-color": "#a1d2e6",
+			"font-family": "Arial, sans-serif",
+			"padding-left": "8px",
+			"padding-right": "8px",
+			"display": "block",
+			"margin": "0 auto",
+			":hover": {
+			"background-color": "#91bdcf"
+			},
+			":focus": {
+			"background-color": "#91bdcf"
+			},
+			"font-weight": "normal"
+		},
+		"variantTitle": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal"
+		},
+		"title": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal",
+			"color": "#808080"
+		},
+		"description": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal"
+		},
+		"price": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal"
+		},
+		"compareAt": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal",
+			"color": "#4c4c4c",
+			"font-size": "12px"
+		}
+		}
+	},
+	"cart": {
+		"contents": {
+		"button": true
+		},
+		"styles": {
+		"button": {
+			"background-color": "#a1d2e6",
+			"font-family": "Arial, sans-serif",
+			":hover": {
+			"background-color": "#91bdcf"
+			},
+			":focus": {
+			"background-color": "#91bdcf"
+			},
+			"font-weight": "normal"
+		},
+		"footer": {
+			"background-color": "#ffffff"
+		}
+		}
+	},
+	"modalProduct": {
+		"contents": {
+		"img": false,
+		"imgWithCarousel": true,
+		"variantTitle": false,
+		"buttonWithQuantity": true,
+		"button": false,
+		"quantity": false
+		},
+		"styles": {
+		"product": {
+			"@media (min-width: 601px)": {
+			"max-width": "100%",
+			"margin-left": "0px",
+			"margin-bottom": "0px"
+			}
+		},
+		"button": {
+			"background-color": "#a1d2e6",
+			"font-family": "Arial, sans-serif",
+			"padding-left": "8px",
+			"padding-right": "8px",
+			":hover": {
+			"background-color": "#91bdcf"
+			},
+			":focus": {
+			"background-color": "#91bdcf"
+			},
+			"font-weight": "normal"
+		},
+		"variantTitle": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal"
+		},
+		"title": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal"
+		},
+		"description": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal"
+		},
+		"price": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal"
+		},
+		"compareAt": {
+			"font-family": "Arial, sans-serif",
+			"font-weight": "normal"
+		}
+		}
+	},
+	"toggle": {
+		"styles": {
+		"toggle": {
+			"font-family": "Arial, sans-serif",
+			"background-color": "#a1d2e6",
+			":hover": {
+			"background-color": "#91bdcf"
+			},
+			":focus": {
+			"background-color": "#91bdcf"
+			},
+			"font-weight": "normal"
+		}
+		}
+	},
+	"option": {
+		"styles": {
+		"label": {
+			"font-family": "Arial, sans-serif"
+		},
+		"select": {
+			"font-family": "Arial, sans-serif"
+		}
+		}
+	},
+	"productSet": {
+		"styles": {
+		"products": {
+			"@media (min-width: 601px)": {
+			"margin-left": "-20px"
+			}
+		}
+		}
+	}
+	}
+		});
+		});
+	}
+	})();
+	/*]]>*/
 </script>
 <!--Psorasis cream-->
 <script type="text/javascript">
@@ -1513,7 +1513,6 @@ END-->
 END-->
 
 
-
 	<div class="row">
 		<div class="col-sm-12">
 			<h1 class="h1-index space-above"> BEAUTY AND HEALTH PRODUCTS </h1>
@@ -1572,7 +1571,7 @@ END-->
 				<img src="../images/TL-packaging-web/Therapy.Dermal.Bottle-SMALL2.jpg" alt="Dermal Therapy for Pain Relief" height="300px" class="productImg-responsive"/>
 				<p class="p-index">NeriumRX Dermal Pain <br/>Relief Therapy</p>
 				<p class="p-index red-text">Sales Price $22</p>
-				<p class="p-index line-through">$42</p>
+				<p class="p-index line-through">$43.95</p>
 			</a>
 			<!-- DELETE IF COMING SOON 
             <div class="coming-soon-btn-container">
@@ -1586,7 +1585,7 @@ END-->
 				<img src="../images/TL-packaging-web/Therapy.Psoriasis.bottle-SMALL2.jpg" alt="Psoriasis Therapy for Pain Relief" height="300px" class="productImg-responsive"/>
 				<p class="p-index">NeriumRX Psoriasis <br/>Relief Therapy</p>
 				<p class="p-index red-text">Sales Price $20</p>
-				<p class="p-index line-through">$35</p>
+				<p class="p-index line-through">$39.95</p>
 			</a>
 			<!-- DELETE IF COMING SOON 
             <div class="coming-soon-btn-container">
@@ -1600,7 +1599,7 @@ END-->
 				<img src="../images/TL-packaging-web/Therapy.CS.LM.Dual.Group-BOTTLES-SMALL.png" alt="Cold Sore Duo Therapy for Cold Sore relief and anti-reoccurance" height="300px" class="productImg-responsive"/>
 				<p class="p-index">NeriumCS Cold Sore Therapy <br/>and Daily Lip Maintance</p>
 				<p class="p-index red-text">Sales Price $18</p>
-				<p class="p-index line-through">$30</p>
+				<p class="p-index line-through">$29.95</p>
 			</a>
 			<div class="coming-soon-btn-container">
 				<button class="coming-soon-btn">COMING SOON</button>

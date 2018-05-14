@@ -48,7 +48,7 @@
 
 	<div class="col-sm-6">
 		<h2 class="title-individual-h2">NeriumCS Cold Sore Therapy and Daily Lip Maintance
-		<br /> $18 <span class="line-through text-thinnest">$30</span>| <span class="title-individual-h2-small">8ml / 0.2 fl. oz<span></h2>
+		<br /> $18 <span class="line-through text-thinnest">$29.95</span>| <span class="title-individual-h2-small">8ml / 0.2 fl. oz<span></h2>
 		<div id='product-component-a3dee81e8bc'><br/></div>
 		<!--REMOVE THIS ONCE COLD SORE IS AVAILABLE
 		<script type="text/javascript">

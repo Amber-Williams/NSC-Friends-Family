@@ -1,58 +1,4 @@
 <?php include('homePageHeader.php'); ?>
-<style>
-	h1 {
-		font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-		font-size: 30px;
-		font-style: normal;
-		font-variant: normal;
-		font-weight: 200;
-		line-height: 1.5em;
-		margin:0;
-		text-align: center;
-	}
-	h3 {
-		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
-		font-size: 17px;
-		font-style: normal;
-		font-variant: normal;
-		font-weight: 100;
-		line-height: 1em;
-		margin:0;
-		text-align: center;
-	}
-	button {
-		display: block;
-		margin: 0 auto;
-		background:none;
-		border: 1px solid grey;
-		border-radius: 3px;
-		padding: 10px;
-		transition: all 300ms linear;
-		}
-	button:hover {
-		background:#686868;
-		border: 1px solid #686868;
-		color:white;
-	}
-	
-	a {
-		text-decoration:none;
-		text-decoration-style:none;
-		color: inherit;
-	}
-	a:hover {
-		text-decoration:none;
-		text-decoration-style: none;
-		color: inherit;
-	}
-	a:vistited {
-		text-decoration:none;
-		text-decoration-style: none;
-		color: inherit;
-	}
-
-</style>
-
 	<div class="row">
 		<div class="col-xs-12 slider frontPage-slider">
 			<!-- slider begin -->
@@ -232,24 +178,24 @@
 
 	<div class="row">
 		<div class="col-sm-12">
-			<a href="AdvancedLine">
+			<a class="collection-a" href="AdvancedLine">
 				<div class="banner products-ADVANCED">
-					<h1>NERIUM ADVANCED</h1>
-					<h3>THE BEAUTY OF SCIENCE</h3>
+					<h1 class="collection-h1" >NERIUM ADVANCED</h1>
+					<h3 class="collection-h3">THE BEAUTY OF SCIENCE</h3>
 					<img src="images/Products-ADVANCED-img.png" alt="Nerium SkinCare Advanced Product Line"/>
-					<button>Explore the Collection</button>
+					<button class="collection-btn" >Explore the Collection</button>
 				</div>
 			</a>
 		</div>	
 	</div>	
     <div class="row">
 		<div class="col-sm-12">
-			<a href="TherapyLine">
+			<a class="collection-a" href="TherapyLine">
 				<div class="banner products-RX">
-					<h1>NERIUMRX THERAPY</h1>
-					<h3>SKIN HEALTH</h3>
+					<h1 class="collection-h1">NERIUMRX THERAPY</h1>
+					<h3 class="collection-h3">SKIN HEALTH</h3>
 					<img src="images/Products-RX-img.png" alt="Nerium SkinCare Advanced Product Line"/>
-					<button>Explore the Collection</button>
+					<button class="collection-btn">Explore the Collection</button>
 				</div>
 			</a>
 		</div>	
@@ -258,12 +204,12 @@
 
 	 <div class="row">
 		<div class="col-sm-12">
-			<a href="../AdvancedLine">
+			<a class="collection-a" href="#">
 				<div class="banner products-AD">
-					<h1>NERIUMAD</h1>
-					<h3>THE ORIGINAL NERIUM OLEANDER EXTRACT PRODUCTS</h3>
+					<h1 class="collection-h1" >NERIUMAD</h1>
+					<h3 class="collection-h3">THE ORIGINAL NERIUM OLEANDER EXTRACT PRODUCTS</h3>
 					<img src="../images/Products-AD-img.png" alt="Nerium SkinCare Advanced Product Line"/>
-					<button>Explore the Collection</button>
+					<button class="collection-btn">Explore the Collection</button>
 				</div>
 			</a>
 		</div>	

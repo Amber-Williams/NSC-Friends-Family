@@ -8,13 +8,15 @@
     <link rel="shortcut icon" href="../favicon.ico">    
     <title>Nerium SkinCare, Inc.</title>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/responsive.css"> 
-  <link rel="stylesheet" href="../css/master.css">
-  <link rel="stylesheet" href="../css/styles.css">
-  <link href="../assets/docs.css" rel="stylesheet"> 
-<link rel="stylesheet" href="../css/flag-icon.min.css">   
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/responsive.css"> 
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="../assets/docs.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/flag-icon.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
+
+
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

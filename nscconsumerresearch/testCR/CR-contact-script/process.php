@@ -18,17 +18,9 @@ $subject = "Consumer Research Form Submission";
 $body =
 "
 Advanced Day and Night Survey: {$advDayNight}
-
-
 RX Cold Sore Survey: {$rxColdSore}
-
-
 RX Psorasis Survey: {$rxPS}
-
-
-RX Dermal Pain Survey: {$rxDermal}
-
-
+RX Dermal Pain Survey: {$$rxDermal}
 Full name: {$name}
 From: {$email}
 Phone: {$phone}

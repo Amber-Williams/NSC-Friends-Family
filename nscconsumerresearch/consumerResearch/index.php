@@ -140,6 +140,17 @@
 	<div class="row">
 		<div class="form-group">
 			<div class="col-sm-3">
+				<label for="address">City*</label>
+			</div>
+			<div class="col-sm-9">  
+				<input type="text" class="form-control" id="city" name="city" placeholder="City"required>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="form-group">
+			<div class="col-sm-3">
 				<label for="state">State*</label>
 			</div>
 			<div class="col-sm-9">  

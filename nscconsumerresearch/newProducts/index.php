@@ -1297,7 +1297,6 @@ END-->
 	/*]]>*/
 </script>
 <!--Cold Sore cream-->
-<!--DELETE when Cold Sore available
 <script type="text/javascript">
 	/*<![CDATA[*/
 
@@ -1330,8 +1329,8 @@ END-->
 
 		ShopifyBuy.UI.onReady(client).then(function (ui) {
 		ui.createComponent('product', {
-			id: [320240680970],
-			node: document.getElementById('product-component-9c40a2c05ea'),
+			id: [11887094858],
+			node: document.getElementById('product-component-b1efa04609b'),
 			moneyFormat: '%24%7B%7Bamount%7D%7D',
 			options: {
 	"product": {
@@ -1510,7 +1509,6 @@ END-->
 	})();
 	/*]]>*/
 </script>
-END-->
 
 
 	<div class="row">
@@ -1594,16 +1592,18 @@ END-->
             -->
 		</div>
 
-		<div id='product-component-25af91bdc23!!DELETEWHENAVAILABLE'>
+		<div id='product-component-b1efa04609b'>
 			<a href="../newProducts-ColdSore/index.php">
-				<img src="../images/TL-packaging-web/Therapy.CS.LM.Dual.Group-BOTTLES-SMALL.png" alt="Cold Sore Duo Therapy for Cold Sore relief and anti-reoccurance" height="300px" class="productImg-responsive"/>
+				<img src="../images/TL-packaging-web/Therapy.CS.LM.Dual.Group-BOTTLES-SMALL.jpg" alt="Cold Sore Duo Therapy for Cold Sore relief and anti-reoccurance" height="300px" class="productImg-responsive"/>
 				<p class="p-index">NeriumCS Cold Sore Therapy <br/>and Daily Lip Maintance</p>
 				<p class="p-index red-text">Sales Price $18</p>
 				<p class="p-index line-through">$29.95</p>
 			</a>
-			<div class="coming-soon-btn-container">
+			<!-- DELETE IF COMING SOON 
+            <div class="coming-soon-btn-container">
 				<button class="coming-soon-btn">COMING SOON</button>
 			</div>
+            -->
 		</div>
 		
 		

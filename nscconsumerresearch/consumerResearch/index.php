@@ -89,7 +89,10 @@
 			</label>
 			<label class="btn">
 				<input type="checkbox" name='rxDermal'><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i><span> Shingles or Dermatitis</span>
-			  </label>
+			</label>			
+			<label class="btn">
+			  <input type="checkbox" name='acne'><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i><span> Acne (Must provide before and after photos)</span>
+			</label>
 			  <br/>
 		  </div>
 		</div>

@@ -6,6 +6,7 @@ if(isset($_POST["captcha"])&&$_POST["captcha"]!=""&&$_SESSION["code"]==$_POST["c
 $rxColdSore =$_POST['rxColdSore'];
 $rxPS =$_POST['rxPS'];
 $rxDermal =$_POST['rxDermal'];
+$acne =$_POST['acne'];
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
@@ -24,6 +25,8 @@ RX Psorasis Survey: {$rxPS}
 
 
 RX Dermal Pain Survey: {$rxDermal}
+
+Acne Survey: {$acne}
 
 
 Full name: {$name}

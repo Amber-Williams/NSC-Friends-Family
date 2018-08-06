@@ -2,7 +2,7 @@
 session_start();
 if(isset($_POST["captcha"])&&$_POST["captcha"]!=""&&$_SESSION["code"]==$_POST["captcha"])
 {
-$advDayNight =$_POST['advDayNight'];
+// $advDayNight =$_POST['advDayNight'];
 $rxColdSore =$_POST['rxColdSore'];
 $rxPS =$_POST['rxPS'];
 $rxDermal =$_POST['rxDermal'];
@@ -17,11 +17,7 @@ $from = "<" . $email . ">";
 $to = "amber@neriumskincare.com , egutierrez@neriumbiotech.com , whitemichael646@gmail.com";
 $subject = "Consumer Research Form Submission";
 $body =
-"
-Advanced Day and Night Survey: {$advDayNight}
-
-
-RX Cold Sore Survey: {$rxColdSore}
+"RX Cold Sore Survey: {$rxColdSore}
 
 
 RX Psorasis Survey: {$rxPS}

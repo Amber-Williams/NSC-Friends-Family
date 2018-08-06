@@ -76,9 +76,11 @@
 		  Please select product surveys you wish to participate in:
 		  <br>
 		  <div class="btn-group btn-group-vertical" data-toggle="buttons">
+			<!-- AW removed per Mike White request 8/6/18
 			<label class="btn active">
 			  <input type="checkbox" name='advDayNight' checked><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i> <span> Advanced Day and Night</span>
 			</label>
+			-->
 			<label class="btn">
 			  <input type="checkbox" name='rxColdSore'><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i><span> Cold Sore</span>
 			</label>

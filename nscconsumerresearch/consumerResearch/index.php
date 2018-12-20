@@ -76,11 +76,16 @@
 		  Please select product surveys you wish to participate in:
 		  <br>
 		  <div class="btn-group btn-group-vertical" data-toggle="buttons">
-			<!-- AW removed per Mike White request 8/6/18
+			<!--AW removed Day Night per Mike White request 8/6/18-->
+			<!-- AW readded per DK and Joe request but to break up per individual product this time 12/20/18-->
 			<label class="btn active">
-			  <input type="checkbox" name='advDayNight' checked><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i> <span> Advanced Day and Night</span>
+			  <input type="checkbox" name='advDay' checked><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i> <span> Advanced Day Cream</span>
 			</label>
-			-->
+
+			<label class="btn active">
+			  <input type="checkbox" name='advNight' checked><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i> <span> Advanced Night Treatment</span>
+			</label>
+			
 			<label class="btn">
 			  <input type="checkbox" name='rxColdSore'><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i><span> Cold Sore</span>
 			</label>

@@ -78,12 +78,12 @@
 		  <div class="btn-group btn-group-vertical" data-toggle="buttons">
 			<!--AW removed Day Night per Mike White request 8/6/18-->
 			<!-- AW readded per DK and Joe request but to break up per individual product this time 12/20/18-->
-			<label class="btn active">
-			  <input type="checkbox" name='advDay' checked><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i> <span> Advanced Day Cream</span>
+			<label class="btn">
+			  <input type="checkbox" name='advDay'><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i> <span> Advanced Day Cream</span>
 			</label>
 
-			<label class="btn active">
-			  <input type="checkbox" name='advNight' checked><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i> <span> Advanced Night Treatment</span>
+			<label class="btn">
+			  <input type="checkbox" name='advNight'><i class="fa fa-square-o fa-2x"></i><i class="fa fa-check-square-o fa-2x"></i> <span> Advanced Night Treatment</span>
 			</label>
 			
 			<label class="btn">
@@ -229,6 +229,15 @@
 			</div>
 			<div class="col-sm-9">  
 				<input type="text" class="form-control" id="zipcode" name="zipcode" placeholder="Zipcode"required>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 space-below">
+			<div class="form-check">
+				<label class="form-check-label">
+					<input type="checkbox" class="form-check-input " value="" required> Check here to agree to the <a target="_blank" class="active-link" href="Model-release.pdf">Model Release</a> document 
+				</label>
 			</div>
 		</div>
 	</div>

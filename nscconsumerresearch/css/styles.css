@@ -1671,3 +1671,6 @@
     .text-bolder {
       font-weight: bolder;
     }
+    .active-link {
+      color: blue;
+    }
